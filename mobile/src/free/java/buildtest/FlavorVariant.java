@@ -1,4 +1,4 @@
-package com.example.android.androidbuildtest;
+package com.example.android.buildtest;
 
 import android.util.Log;
 
@@ -10,11 +10,11 @@ public class FlavorVariant {
 
     public FlavorVariant(){
 
-        Log.i("TEXT", "hello world from variant Paid");
+        Log.i("TEXT", "hello world from variant free");
     }
 
     public String getString(){
-        return "Hello Paid World";
+        return "Hello Free World";
 
     }
 }
