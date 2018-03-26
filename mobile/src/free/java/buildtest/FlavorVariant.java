@@ -17,4 +17,9 @@ public class FlavorVariant {
         return "Hello Free World";
 
     }
+
+    public void onClick(View v){
+        Log.i("FREE","click registered");
+        return;
+    }
 }
